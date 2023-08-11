@@ -28,8 +28,9 @@ body {
     width: 100%;
     height: 2px; /* Match the border thickness */
     background-color: white; /* Match the border color */
-    bottom: -2px; /* Push the pseudo-element under the border */
+    bottom: -1px; /* Push the pseudo-element under the border */
     left: 0;
+    right: inherit;
 }
 
 #about-link, #home-link, #contact-link, #resume-link, #projects-link, #desc-text, #contact-text, #file, .conclusion {
