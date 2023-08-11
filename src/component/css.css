@@ -1,0 +1,174 @@
+body {
+    background-color: #1c2c3c ; /* Set the background color to black #3c8efc */
+    color: #ffffff; /* Set the text color to white */
+    font-family: Malayalam MN; /* Set the font */ 
+    font-size: 20px; /* Set the font size */
+    width: 100%; /* Set the width to 100% */
+    height: 100%; /* Set the height to 100% */
+}
+
+.home {
+    padding-top: 75px; /* Add some padding */
+    width: 100%; /* Set the width */
+    padding-bottom: 100px;
+}
+
+.about {
+    margin-left: 20px;
+}
+/* Style active link with underline and space */
+.navbar-nav .nav-link.active {
+    position: relative;
+    text-decoration: none; /* Remove the default underline */
+}
+
+.navbar-nav .nav-link.active::before {
+    content: ''; /* Create a pseudo-element */
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Match the border thickness */
+    background-color: white; /* Match the border color */
+    bottom: -2px; /* Push the pseudo-element under the border */
+    left: 0;
+}
+
+#about-link, #home-link, #contact-link, #resume-link, #projects-link, #desc-text, #contact-text, #file {
+    transition: transform 0.3s;
+}
+
+#about-link:hover, #home-link:hover, #contact-link:hover, #resume-link:hover, #projects-link:hover, #desc-text:hover, #contact-text:hover, #file:hover {
+    transform: scale(1.1);
+}
+
+.circle-container {
+    display: inline-block;
+    width: 350px; /* Adjust the size of the circle */
+    height: 350px; /* Adjust the size of the circle */
+    border-radius: 50%;
+    border-color: #ffffff;
+    border-style: solid;
+    overflow: hidden;
+    background-color: #f2f2f2; /* Background color of the circle */
+    transition: transform 0.3s;
+  }
+
+.circle-container:hover{
+        transform: scale(1.1);
+    }
+  
+.circle-img {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+.tail-image{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+
+}
+  
+.welcome {
+    font-size: 50px;
+    transition: transform 0.3s;
+}
+  
+.welcome:hover {
+    transform: scale(1.1);
+}
+
+.info {
+    font-size: 25px;
+    transition: transform 0.3s;
+}
+
+.info:hover {
+    transform: scale(1.1);
+}
+
+.myName {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.information {
+    font-size: 20px;
+    flex: 1;
+    padding: 20px; /* Add some spacing between image and text */
+}
+
+.degree {
+    font-size: 27px;
+    font-weight: bold;
+    color: chocolate;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;    
+    display: block;
+    margin: auto;
+}
+
+.resume-container{
+    margin-top: 10px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.phone, .email, .github, .linkedin, .whatsapp {
+   margin: 20px;
+   color: #ffffff;
+   transition: transform 0.3s; /* Add smooth transition effect */
+}
+
+.whatsapp:hover, .phone:hover {
+    transform: scale(1.3);
+    color: #25D366;
+}
+
+.email:hover {
+    transform: scale(1.3);
+    color: #D44638;
+}
+
+.github:hover {
+    transform: scale(1.3);
+    color: #000000;
+}
+
+.linkedin:hover {
+    transform: scale(1.3);
+    color: #0077B5;
+}
+
+.skills{
+    color: brown;
+    font-weight: bold;
+}
+
+.github-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: transform 0.3s;
+  }
+
+.github-button:hover {
+    transform: scale(1.1);
+}
+  
+  /*inline styles 
+  style={{ backgroundColor: "#333", color: "white", padding: "8px 16px", borderRadius: "5px", textDecoration: "none", fontSize: "16px" }}
+  */
