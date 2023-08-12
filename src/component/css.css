@@ -13,13 +13,11 @@ body {
     padding-bottom: 100px;
 }
 
-.about {
-    margin: auto;
-}
 /* Style active link with underline and space */
 .navbar-nav .nav-link.active {
     position: relative;
     text-decoration: none; /* Remove the default underline */
+    display: inline-block;
 }
 
 .navbar-nav .nav-link.active::before {
@@ -29,7 +27,8 @@ body {
     height: 2px; /* Match the border thickness */
     background-color: white; /* Match the border color */
     bottom: -1px; /* Push the pseudo-element under the border */
-    left: 0;
+    /*left: 0; */
+    overflow: hidden;
 }
 
 #about-link, #home-link, #contact-link, #resume-link, #projects-link, #desc-text, #contact-text, #file, .conclusion {
@@ -53,8 +52,8 @@ body {
   }
 
 .circle-container:hover{
-        transform: scale(1.1);
-    }
+    transform: scale(1.1);
+  } 
   
 .circle-img {
     margin-top: auto;
@@ -98,7 +97,12 @@ body {
 .information {
     font-size: 20px;
     flex: 1;
-    padding: 20px; /* Add some spacing between image and text */
+    /* padding: 20px; Add some spacing between image and text */
+}
+
+.custom-style{
+    margin: 15px;
+    padding: 10px;
 }
 
 .degree {
@@ -114,8 +118,8 @@ body {
     margin: auto;
 }
 
-.resume-container{
-    margin-top: 10px;
+.resume-container, .project{
+    margin-top: 15px;
 }
 
 .contact-icons {
@@ -165,11 +169,11 @@ body {
     transition: transform 0.3s;
   }
 
-.github-button:hover .conclusion:hover{
+.github-button:hover {
     transform: scale(1.1);
 }
 
-.box-container1, .box-container2, .box-container3 {
+.box-container1, .box-container2, .box-container3, .conclusion {
     transition: transform 0.3s;
     transform: scale(0.7);
 }
@@ -177,6 +181,7 @@ body {
 .box-container1:hover, .box-container2:hover, .box-container3:hover, .conclusion:hover {
     transform: scale(0.8);
 }
+
 
 
   

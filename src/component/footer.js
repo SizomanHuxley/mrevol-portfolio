@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <div className="footer text-center" style={{ 
-            border: "2px solid white", 
+            border: "2px solid black", 
             fontFamily: "Malayalam MN", 
             fontSize: "20px", 
             backgroundColor: "white", 

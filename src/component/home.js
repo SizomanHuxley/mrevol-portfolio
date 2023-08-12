@@ -16,13 +16,13 @@ const Home = () => {
            
             <div className="row align-items-center">
                 {/* Column for the image */}
-                <div className="col-md-4 text-center">
+                <div className="col-md-4 custom-style text-center">
                     <div className="circle-container">
                         <img src={require('./pictures/Myself1.jpeg')} alt="Michelob Revol" className="circle-img" />
                     </div>
                 </div>
                 {/* Column for the welcome message and information */}
-                <div className="col-md-4">
+                <div className="col-md-4 custom-style">
                     {/* Welcome message */}
                     <div className='welcome'>Hello, Welcome to my portfolio!</div>
                     <br />
