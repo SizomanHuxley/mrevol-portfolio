@@ -12,9 +12,7 @@ const Footer = () => {
             fontSize: "20px", 
             backgroundColor: "white", 
             color: "black", 
-            bottom: 0, 
             width: "100%", // Make the footer span the entire width
-            margin: "15px"
         }}>
             <p>Michelob Revol © {currentYear}</p>
         </div>
