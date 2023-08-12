@@ -1,21 +1,28 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css.css";
 
 const Home = () => {
     return (
-      
+        <motion.div
+        className="home"
+        initial={{ opacity: 0, x: "5%" }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: "20%" }}
+        transition={{ duration: 2 }}
+    >
            
             <div className="row align-items-center">
                 {/* Column for the image */}
-                <div className="col-md-5 text-center">
+                <div className="col-md-4 text-center">
                     <div className="circle-container">
                         <img src={require('./pictures/Myself1.jpeg')} alt="Michelob Revol" className="circle-img" />
                     </div>
                 </div>
                 {/* Column for the welcome message and information */}
-                <div className="col-md-5">
+                <div className="col-md-4">
                     {/* Welcome message */}
                     <div className='welcome'>Hello, Welcome to my portfolio!</div>
                     <br />
@@ -28,7 +35,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-       
+       </motion.div>
     );
 }
 

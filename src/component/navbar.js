@@ -16,8 +16,8 @@ const Bar = () => {
                 style={{
                     fontFamily: "Malayalam MN",
                     fontSize: "35px",
-                    padding: "auto",
-                    margin: "auto",
+                    padding: "0px 0px 0px 0px",
+                    margin: "0px 0px 0px 0px"
                 }}
                 variant="dark"
                 expand="lg"

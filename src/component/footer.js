@@ -11,9 +11,10 @@ const Footer = () => {
             fontFamily: "Malayalam MN", 
             fontSize: "20px", 
             backgroundColor: "white", 
-            color: "black", 
-            width: "100%", // Make the footer span the entire width
-        }}>
+            color: "black",
+            margin: "15px 0px 0px 0px",
+            padding: "10px 0px 10px 0px", 
+         }}>
             <p>Michelob Revol © {currentYear}</p>
         </div>
     );
