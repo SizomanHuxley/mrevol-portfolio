@@ -14,7 +14,7 @@ body {
 }
 
 .about {
-    margin-left: 20px;
+    margin: auto;
 }
 /* Style active link with underline and space */
 .navbar-nav .nav-link.active {
@@ -30,7 +30,6 @@ body {
     background-color: white; /* Match the border color */
     bottom: -1px; /* Push the pseudo-element under the border */
     left: 0;
-    right: inherit;
 }
 
 #about-link, #home-link, #contact-link, #resume-link, #projects-link, #desc-text, #contact-text, #file, .conclusion {
@@ -58,7 +57,7 @@ body {
     }
   
 .circle-img {
-    margin-top: 100px;
+    margin-top: auto;
     width: 100%;
     height: auto;
     display: block;
@@ -125,7 +124,7 @@ body {
 }
 
 .phone, .email, .github, .linkedin, .whatsapp {
-   margin: 20px;
+    margin: auto;
    color: #ffffff;
    transition: transform 0.3s; /* Add smooth transition effect */
 }
@@ -178,6 +177,8 @@ body {
 .box-container1:hover, .box-container2:hover, .box-container3:hover, .conclusion:hover {
     transform: scale(0.8);
 }
+
+
   
   /*inline styles 
   style={{ backgroundColor: "#333", color: "white", padding: "8px 16px", borderRadius: "5px", textDecoration: "none", fontSize: "16px" }}

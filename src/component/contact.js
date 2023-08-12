@@ -19,13 +19,14 @@ const Contact = () => {
       transition={{ duration: 2 }}
   >
 
-        <div className="row">
-            <div className="contact-container">
-                <div className="col-md-4 mx-auto text-center">
+
+        <div className="row" >
+            <div className="contact-container" style={{paddingBottom: "127px"}}>
+                <div className="col-md-4 mx-auto ms-auto text-center">
                     <p id="contact-text" style={{fontSize: "60px"}}>Contact Me</p>
                     <p id="desc-text" style={{fontSize: "25px"}}>Feel free to get in touch if you have any opportunities or if you simply want to connect. I'm available through these channels, and I've also designed and built this website to showcase my skills.</p>
 
-                    <div className="contact-icons" style={{ fontSize: "50px", paddingBottom: "80px"}} >
+                    <div className="contact-icons" style={{ fontSize: "50px", paddingBottom: "auto"}} >
                         <a href={whatsapp} target="_blank" rel="noopener noreferrer" className="whatsapp" >
                             <FaWhatsapp/>
                         </a>

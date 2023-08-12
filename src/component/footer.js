@@ -6,7 +6,16 @@ const Footer = () => {
     const currentYear = new Date().getFullYear(); // Get the current year
 
     return (
-        <div className="footer text-center" style={{ border: "2px solid white", fontFamily: "Malayalam MN", fontSize: "20px", backgroundColor: "white", color: "black", margin: "5px"}}>
+        <div className="footer text-center" style={{ 
+            border: "2px solid white", 
+            fontFamily: "Malayalam MN", 
+            fontSize: "20px", 
+            backgroundColor: "white", 
+            color: "black", 
+            bottom: 0, 
+            width: "100%", // Make the footer span the entire width
+            margin: "15px"
+        }}>
             <p>Michelob Revol © {currentYear}</p>
         </div>
     );
