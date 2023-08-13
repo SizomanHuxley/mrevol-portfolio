@@ -22,7 +22,7 @@ const Home = () => {
                     </div>
                 </div>
                 {/* Column for the welcome message and information */}
-                <div className="col-md-4 custom-style">
+                <div className="col-md-4 text-center custom-style">
                     {/* Welcome message */}
                     <div className='welcome'>Hello, Welcome to my portfolio!</div>
                     <br />
