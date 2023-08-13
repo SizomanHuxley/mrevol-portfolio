@@ -15,18 +15,18 @@ const About = () => {
       transition={{ duration: 4 }}
     >
             <div className="row ">
-            <div className="col-md-5 custom-style">
-            <p style={{fontSize: "20px", backgroundColor: "white", color: "black", padding: "15px"}} ><br/> As you already know, my name is Michelob Revol, a recent graduate with an insatiable passion for technology and an unwavering drive to leave a positive mark through my skills. Armed with a <span className='degree'> Bachelor of Science in Computer Science </span> from Florida Atlantic University, which I proudly earned in August 2023, I am now embarking on an exciting journey to secure a full-time role as a software engineer.</p>
+            <div className="col-md-5">
+            <p style={{fontSize: "20px", backgroundColor: "white", color: "black", padding: "20px"}} ><br/> As you already know, my name is Michelob Revol, a recent graduate with an insatiable passion for technology and an unwavering drive to leave a positive mark through my skills. Armed with a <span className='degree'> Bachelor of Science in Computer Science </span> from Florida Atlantic University, which I proudly earned in August 2023, I am now embarking on an exciting journey to secure a full-time role as a software engineer.</p>
                     
-                    <div className="abt-image">
+                    <div className="abt-image" style={{padding: "10px"}}>
                         <img src={MyImage} alt="Michelob Revol" className="about-image" />
                     </div>
                     <p className="awards text-center">Summer 2023 Senior Design Showcase<br />Judges Choice Award: Best Project</p>
                 </div>
 
-                <div className="col-md-6 custom-style">
+                <div className="col-md-6">
                   <div className="information" style={{backgroundColor: "white", color: "black"}}>
-                    <p style={{padding: "15px"}}> 
+                    <p style={{padding: "20px"}}> 
                   <p >My proficiency spans various programming languages, including the likes of C/C++, Python, and Swift. Alongside, I've immersed myself in the world of web development, mastering HTML, CSS, React, and JavaScript to craft immersive digital experiences. Additionally, my fascination with mobile app development has led me to explore the captivating world of iOS. As an ardent iOS app enthusiast, I've dedicated considerable time to honing my craft, churning out applications that seamlessly blend creativity with functionality.</p>                    
                     <p>My journey has led me to explore cutting-edge technologies such as Firebase, MangoDB, and Parse. These tools, coupled with my drive for innovation, have enabled me to create dynamic and responsive apps that stand out in a crowded digital landscape.</p>
                     
