@@ -7,7 +7,14 @@ body {
     height: 100%; /* Set the height to 100% */
     overflow-x: hidden; 
 }
-
+@media (max-width: 767px),
+       (min-width: 768px) and (max-width: 1024px),
+       (min-width: 1025px) and (max-width: 1280px),
+       (min-width: 1281px) {
+    body {
+        overflow-x: hidden;
+    }
+}
 
 
 .home {
@@ -21,7 +28,7 @@ body {
     transition: all 0.3s;
 }
 
-#about-link, #home-link, #contact-link, #resume-link, #projects-link, #desc-text, #contact-text, #file, .conclusion {
+#about-link, #home-link, #contact-link, #resume-link, #projects-link, #desc-text, #contact-text, #file {
     transition: transform 0.3s;
 }
 
@@ -71,8 +78,19 @@ body {
     font-weight: bold;
     
 }
+
+.conclusion{
+    padding: 35px;
+    transition: transform 0.3s;
+}
+
+.conclusion:hover{
+    transform: scale(1.1);
+    padding: 35px;
+}
+
   
-.welcome:hover, .conclusion:hover {
+.welcome:hover {
     transform: scale(1.1);
     padding: 15px;
 }
