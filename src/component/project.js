@@ -6,7 +6,7 @@ const Project = () => {
     <div className="project"> 
     <div className="cool" style={{backgroundColor: "white"}}>
       <div className="row">
-        <div className="col-sm-4 box-container1">
+        <div className="col-sm-4 mx-auto box-container1">
           <div
             style={{
               display: 'flex',
@@ -50,7 +50,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="col-sm-4 box-container2">
+        <div className="col-sm-4 mx-auto box-container2">
           <div
             style={{
               display: 'flex',
@@ -93,7 +93,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="col-sm-4 box-container3">
+        <div className="col-sm-4 mx-auto box-container3">
           <div
             style={{
               display: 'flex',
@@ -144,7 +144,7 @@ const Project = () => {
           style={{
           fontSize: "25px",
           color: "white",
-          
+          padding: "35px",
           
         }}
          >

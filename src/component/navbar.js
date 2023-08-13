@@ -12,18 +12,16 @@ import { NavLink } from "react-router-dom";
 const Bar = () => {
     return (
         <>
-            <Navbar
+            <Navbar variant="dark" expand="lg"
                 style={{
                     fontFamily: "Malayalam MN",
                     fontSize: "35px",
-                    padding: "none",
-                    margin: "none",
+                    padding: "auto",
+                    margin: "auto",
                     textAlign: "center",
                     fontWeight: "bold",
                     width: "100%",
-                }}
-                variant="dark"
-                expand="lg"
+                }}  
             >
                 <Container style={{width: "100%"}}>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
