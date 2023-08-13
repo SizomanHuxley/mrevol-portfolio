@@ -64,10 +64,13 @@ body {
 .welcome {
     font-size: 50px;
     transition: transform 0.3s;
+    font-weight: bold;
+    
 }
   
 .welcome:hover {
     transform: scale(1.1);
+    padding: 15px;
 }
 
 .info {
@@ -77,6 +80,7 @@ body {
 
 .info:hover {
     transform: scale(1.1);
+    padding: 15px;
 }
 
 .myName {
