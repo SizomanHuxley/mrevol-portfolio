@@ -13,7 +13,6 @@ body {
     padding-bottom: 100px;
 }
 
-
 .navbar-nav .nav-link.active {
     border-bottom: 2px solid #ffffff; /* You can adjust the color and thickness as desired */
     transition: all 0.3s;
@@ -37,11 +36,11 @@ body {
     overflow: hidden;
     background-color: #f2f2f2; /* Background color of the circle */
     transition: transform 0.3s;
-  }
+}
 
 .circle-container:hover{
     transform: scale(1.1);
-  } 
+} 
   
 .circle-img {
     margin-top: auto;
@@ -49,7 +48,7 @@ body {
     height: auto;
     display: block;
     margin: auto;
-  }
+}
 
 .tail-image{
     width: 50%;
@@ -155,7 +154,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     transition: transform 0.3s;
-  }
+}
 
 .github-button:hover {
     transform: scale(1.1);
@@ -169,10 +168,3 @@ body {
 .box-container1:hover, .box-container2:hover, .box-container3:hover, .conclusion:hover {
     transform: scale(0.8);
 }
-
-
-
-  
-  /*inline styles 
-  style={{ backgroundColor: "#333", color: "white", padding: "8px 16px", borderRadius: "5px", textDecoration: "none", fontSize: "16px" }}
-  */

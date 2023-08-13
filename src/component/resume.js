@@ -77,7 +77,7 @@ const Resume = () => {
         <a href="/Mrevol_Resume.pdf" download>
           <p id='file' style={{textAlign: "center"}}><FaFilePdf/>Mrevol_Resume.pdf </p>
         </a>
-                </div>
+            </div>
             </div>
         </div>
         </motion.div>

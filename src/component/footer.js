@@ -15,7 +15,7 @@ const Footer = () => {
             margin: "15px 0px 0px 0px",
             padding: "10px 0px 10px 0px", 
             width: "100%"
-         }}>
+        }}>
             <p>Michelob Revol © {currentYear}</p>
         </div>
     );
