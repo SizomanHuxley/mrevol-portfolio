@@ -24,6 +24,7 @@ body {
 
 #contact-text{
     text-align: left;
+    font-weight: bold;
 }
 
 #about-link:hover, #home-link:hover, #contact-link:hover, #resume-link:hover, #projects-link:hover, #desc-text:hover, #contact-text:hover, #file:hover {
@@ -96,7 +97,7 @@ body {
 
 .custom-style{
    margin: 2px;
-    padding: 30px;
+   padding: 30px;
 }
 
 .degree {

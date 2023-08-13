@@ -139,11 +139,12 @@ const Project = () => {
         </div>
         </div>
 
-        <div className="row text-center">
+        <div className="row">
           <div className="col-md-8 mx-auto conclusion"
           style={{
           fontSize: "25px",
           color: "white",
+          padding: "15px",
           
         }}
          >

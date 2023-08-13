@@ -19,6 +19,7 @@ const Bar = () => {
                     padding: "none",
                     margin: "none",
                     textAlign: "center",
+                    fontWeight: "bold",
                 }}
                 variant="dark"
                 expand="lg"

@@ -21,7 +21,7 @@ const Contact = () => {
 
 
         <div className="row" >
-            <div className="contact-container" style={{paddingBottom: "60px", paddingRight: "15px", paddingLeft: "15px"}}>
+            <div className="contact-container" style={{paddingBottom: "40px", paddingRight: "15px", paddingLeft: "15px"}}>
                 <div className="col-md-4 mx-auto ms-auto custom-style">
                     <p id="contact-text" style={{fontSize: "50px"}}>Contact Me</p>
                     <p id="desc-text" style={{fontSize: "25px"}}>Feel free to get in touch if you have any opportunities or if you simply want to connect. I'm available through these channels, and I've also designed and built this website to showcase my skills.</p>

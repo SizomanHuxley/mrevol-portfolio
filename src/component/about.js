@@ -21,7 +21,7 @@ const About = () => {
                     <div className="abt-image" style={{padding: "10px"}}>
                         <img src={MyImage} alt="Michelob Revol" className="about-image" />
                     </div>
-                    <p className="awards">Summer 2023 Senior Design Showcase<br />Judges Choice Award: Best Project</p>
+                    <p className="awards" style={{padding: "10px"}}>Summer 2023 Senior Design Showcase<br />Judges Choice Award: Best Project</p>
                 </div>
 
                 <div className="col-md-6">
