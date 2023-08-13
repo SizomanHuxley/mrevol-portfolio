@@ -22,17 +22,20 @@ body {
     transition: transform 0.3s;
 }
 
+#contact-text{
+    text-align: left;
+}
+
 #about-link:hover, #home-link:hover, #contact-link:hover, #resume-link:hover, #projects-link:hover, #desc-text:hover, #contact-text:hover, #file:hover {
     transform: scale(1.1);
 }
 
 .circle-container {
     display: inline-block;
-    width: 350px; /* Adjust the size of the circle */
-    height: 350px; /* Adjust the size of the circle */
+    width: 300px; /* Adjust the size of the circle */
+    height: 300px; /* Adjust the size of the circle */
     border-radius: 50%;
-    border-color: #ffffff;
-    border-style: solid;
+    border: 5px solid #ffffff;
     overflow: hidden;
     background-color: #f2f2f2; /* Background color of the circle */
     transition: transform 0.3s;
