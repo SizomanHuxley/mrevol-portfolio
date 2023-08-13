@@ -20,11 +20,12 @@ const Bar = () => {
                     margin: "none",
                     textAlign: "center",
                     fontWeight: "bold",
+                    width: "100%",
                 }}
                 variant="dark"
                 expand="lg"
             >
-                <Container>
+                <Container style={{width: "100%"}}>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">

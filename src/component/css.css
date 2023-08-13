@@ -5,7 +5,10 @@ body {
     font-size: 20px; /* Set the font size */
     width: 100%; /* Set the width to 100% */
     height: 100%; /* Set the height to 100% */
+    overflow-x: hidden; 
 }
+
+
 
 .home {
     padding-top: 75px; /* Add some padding */
@@ -69,7 +72,7 @@ body {
     
 }
   
-.welcome:hover {
+.welcome:hover, .conclusion:hover {
     transform: scale(1.1);
     padding: 15px;
 }
@@ -168,11 +171,12 @@ body {
     transform: scale(1.1);
 }
 
-.box-container1, .box-container2, .box-container3, .conclusion {
+.box-container1, .box-container2, .box-container3  {
     transition: transform 0.3s;
     transform: scale(0.7);
 }
 
-.box-container1:hover, .box-container2:hover, .box-container3:hover, .conclusion:hover {
+.box-container1:hover, .box-container2:hover, .box-container3:hover {
     transform: scale(0.8);
 }
+
