@@ -16,7 +16,7 @@ const Home = () => {
            
             <div className="row align-items-center">
                 {/* Column for the image */}
-                <div className="col-md-4 custom-style text-center" style={{marginLeft: "100px", marginRight: "100px"}}>
+                <div className="col-md-4 custom-style text-center" style={{marginLeft: "80px", marginRight: "100px"}}>
                     <div className="circle-container">
                         <img src={require('./pictures/Myself1.jpeg')} alt="Michelob Revol" className="circle-img" />
                     </div>
