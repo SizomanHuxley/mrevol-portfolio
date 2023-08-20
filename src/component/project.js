@@ -140,7 +140,7 @@ const Project = () => {
         </div>
 
         <div className="row">
-          <div className="col-md-8 mx-auto conclusion"
+          <div className="col-md-8 mx-auto conclusion custom-style"
           style={{
           fontSize: "25px",
           color: "white",
