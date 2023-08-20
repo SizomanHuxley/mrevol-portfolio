@@ -1,3 +1,4 @@
+/* Styling for the overall page layout */
 html, body {
     background-color: #1c2c3c ;
     color: #ffffff; 
@@ -6,26 +7,16 @@ html, body {
     width: 100%; 
     height: 100%; 
     overflow-x: hidden;
-    
 }
- /* @media (min-width: 360px) and (max-width: 780px),
-       (min-width: 1080px) and (max-width: 2340px),
-       (max-width: 767px),
-       (min-width: 768px) and (max-width: 1024px),
-       (min-width: 1025px) and (max-width: 1280px),
-       (min-width: 1281px) {
-    body {
-        overflow-x: hidden;
-    }
-}   */
 
-
+/* Styling for the home section */
 .home {
     padding-top: 75px; /* Add some padding */
     width: 100%; /* Set the width */
     padding-bottom: 100px;
 }
 
+/* Styling for the active navigation link */
 .navbar-nav .nav-link.active {
     border-bottom: 2px solid #ffffff; /* You can adjust the color and thickness as desired */
     transition: all 0.3s;
@@ -34,34 +25,39 @@ html, body {
     width: auto;
 }
 
+/* Styling for various links and text elements */
 #about-link, #home-link, #contact-link, #resume-link, #projects-link, #desc-text, #contact-text, #file {
     transition: transform 0.3s;
 }
 
-#contact-text{
+#contact-text {
     text-align: left;
     font-weight: bold;
 }
 
+/* Hover effect for links and text elements */
 #about-link:hover, #home-link:hover, #contact-link:hover, #resume-link:hover, #projects-link:hover, #desc-text:hover, #contact-text:hover, #file:hover {
     transform: scale(1.1);
 }
 
+/* Styling for circular image container */
 .circle-container {
     display: inline-block;
-    width: 300px; /* Adjust the size of the circle */
-    height: 300px; /* Adjust the size of the circle */
+    width: 300px;
+    height: 300px; 
     border-radius: 50%;
     border: 5px solid #ffffff;
     overflow: hidden;
-    background-color: #f2f2f2; /* Background color of the circle */
+    background-color: #f2f2f2;
     transition: transform 0.3s;
 }
 
-.circle-container:hover{
+/* Hover effect for circular image container */
+.circle-container:hover {
     transform: scale(1.1);
-} 
-  
+}
+
+/* Styling for circular images */
 .circle-img {
     margin-top: auto;
     width: 100%;
@@ -70,70 +66,78 @@ html, body {
     margin: auto;
 }
 
-.tail-image{
+/* Styling for tail image */
+.tail-image {
     width: 50%;
     height: 50%;
     display: block;
     margin: auto;
-
 }
-  
+
+/* Styling for the welcome text */
 .welcome {
     font-size: 50px;
     transition: transform 0.3s;
     font-weight: bold;
-    
 }
 
-.conclusion{
+/* Styling for the conclusion text */
+.conclusion {
     padding: 35px;
     transition: transform 0.3s;
     transform: scale(0.9);
 }
 
-.conclusion:hover{
+/* Hover effect for the conclusion text */
+.conclusion:hover {
     transform: scale(1);
     padding: 35px;
 }
 
-  
+/* Hover effect for the welcome text */
 .welcome:hover {
     transform: scale(1.1);
     padding: 15px;
 }
 
+/* Styling for information text */
 .info {
     font-size: 25px;
     transition: transform 0.3s;
 }
 
+/* Hover effect for information text */
 .info:hover {
     transform: scale(1.1);
     padding: 15px;
 }
 
+/* Styling for name text */
 .myName {
     font-size: 40px;
     font-weight: bold;
 }
 
+/* Styling for information section */
 .information {
     font-size: 20px;
     flex: 1;
-    /* padding: 20px; Add some spacing between image and text */
 }
 
-.custom-style{
+/* Styling for custom style */
+.custom-style {
    margin: 2px;
    padding: 30px;
 }
 
+/* Styling for degree text */
 .degree {
     font-size: 27px;
     font-weight: bold;
     color: chocolate;
 }
 
+/* Styling for about image */
 .about-image {
     width: 100%;
     height: auto;    
@@ -141,21 +145,25 @@ html, body {
     margin: auto;
 }
 
-.resume-container, .project{
+/* Styling for resume container and project */
+.resume-container, .project {
     margin-top: 15px;
 }
 
+/* Styling for contact icons */
 .contact-icons {
     display: flex;
     justify-content: center;
 }
 
+/* Styling for contact icons (various social media) */
 .phone, .email, .github, .linkedin, .whatsapp {
     margin: auto;
-   color: #ffffff;
-   transition: transform 0.3s; /* Add smooth transition effect */
+    color: #ffffff;
+    transition: transform 0.3s; /* Add smooth transition effect */
 }
 
+/* Hover effect for contact icons */
 .whatsapp:hover, .phone:hover {
     transform: scale(1.3);
     color: #25D366;
@@ -176,11 +184,13 @@ html, body {
     color: #0077B5;
 }
 
-.skills{
+/* Styling for skills section */
+.skills {
     color: brown;
     font-weight: bold;
 }
 
+/* Styling for GitHub button */
 .github-button {
     display: inline-block;
     background-color: #333;
@@ -192,25 +202,30 @@ html, body {
     transition: transform 0.3s;
 }
 
+/* Hover effect for GitHub button */
 .github-button:hover {
     transform: scale(1.1);
 }
 
+/* Styling for box containers */
 .box-container1, .box-container2, .box-container3  {
     transition: transform 0.3s;
     transform: scale(0.7);
 }
 
+/* Hover effect for box containers */
 .box-container1:hover, .box-container2:hover, .box-container3:hover {
     transform: scale(0.8);
 }
 
+/* Styling for the root element */
 #root {
     min-height: 100vh;
     position: relative;
-  }
-  
-  .footer {
+}
+
+/* Styling for the footer */
+.footer {
     position: absolute;
     bottom: 0;
     border: 2px solid black; 
@@ -219,4 +234,4 @@ html, body {
     color: black;
     width: 100%;
     height: 50px;
-  }
+}
