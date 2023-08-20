@@ -144,7 +144,7 @@ const Project = () => {
           style={{
           fontSize: "25px",
           color: "white",
-          padding: "35px 120px 70px 120px",
+          padding: "35px 60px 70px 60px",
           
         }}
          >
