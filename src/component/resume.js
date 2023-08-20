@@ -19,7 +19,7 @@ const Resume = () => {
                 <div className="col-md-7 mx-auto mr-auto" style={{backgroundColor: "white", color: "black", padding: "20px" }}>
                     <p className="text-center" style={{borderBottom: "2px solid"}}>
                         M I C H E L O B   R E V O L <br />
-                        West Palm Beach, FL | mrevol2023@gmail.com | (561) 567-1891
+                        West Palm Beach, FL | mrevol2023@gmail.com | (561) 567-1891 | michelobrevol.com
                     </p>
 
                     <h3>EDUCATION</h3>
