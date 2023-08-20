@@ -15,7 +15,7 @@ const Resume = () => {
         exit={{ opacity: 0 }}
       >
         <div className="row">
-            <div className="resume-container custom-style">
+            <div className="resume-container custom-style" style={{paddingBottom: "60px"}}>
                 <div className="col-md-7 mx-auto mr-auto" style={{backgroundColor: "white", color: "black", padding: "20px" }}>
                     <p className="text-center" style={{borderBottom: "2px solid"}}>
                         M I C H E L O B   R E V O L <br />

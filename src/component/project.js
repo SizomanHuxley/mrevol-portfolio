@@ -144,11 +144,11 @@ const Project = () => {
           style={{
           fontSize: "25px",
           color: "white",
-          padding: "35px",
+          padding: "35px 0px 70px 0px",
           
         }}
          >
-          <p>
+        <p>
       These projects showcase my dedication to creating innovative solutions using modern technologies.
       Each application is a testament to my skills and commitment to delivering exceptional user experiences. I am excited to continue
       exploring new possibilities and honing my abilities in software development.<br/><br/>

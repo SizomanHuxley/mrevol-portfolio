@@ -1,12 +1,14 @@
-body {
-    background-color: #1c2c3c ; /* Set the background color to black #3c8efc */
-    color: #ffffff; /* Set the text color to white */
-    font-family: Malayalam MN; /* Set the font */ 
-    font-size: 20px; /* Set the font size */
-    width: 100%; /* Set the width to 100% */
-    height: 100%; /* Set the height to 100% */
+html, body {
+    background-color: #1c2c3c ;
+    color: #ffffff; 
+    font-family: Malayalam MN; 
+    font-size: 20px; 
+    width: 100%; 
+    height: 100%; 
+    overflow-x: hidden;
+    
 }
-@media (min-width: 360px) and (max-width: 780px),
+ /* @media (min-width: 360px) and (max-width: 780px),
        (min-width: 1080px) and (max-width: 2340px),
        (max-width: 767px),
        (min-width: 768px) and (max-width: 1024px),
@@ -15,7 +17,7 @@ body {
     body {
         overflow-x: hidden;
     }
-} 
+}   */
 
 
 .home {
@@ -203,3 +205,18 @@ body {
     transform: scale(0.8);
 }
 
+#root {
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    border: 2px solid black; 
+    font-size: 20px; 
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 50px;
+  }
