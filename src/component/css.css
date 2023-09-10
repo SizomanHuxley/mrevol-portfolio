@@ -16,6 +16,22 @@ html, body {
     padding-bottom: 100px;
 }
 
+.about, .project, .resume-container{
+    padding:  30px 20px 70px 20px;
+}
+
+/* .resume-container{
+    background-color: white;
+    color: black;
+    padding:  130px 70px;
+   
+} */
+
+.resume-box{
+    padding: 30px 20px;
+    background-color: white;
+    color: black
+}
 
 /* Styling for various links and text elements */
 #about-link, #home-link, #contact-link, #resume-link, #projects-link, #desc-text, #contact-text, #file {
@@ -137,10 +153,6 @@ html, body {
     margin: auto;
 }
 
-/* Styling for resume container and project */
-.resume-container, .project {
-    margin-top: 15px;
-}
 
 /* Styling for contact icons */
 .contact-icons {
@@ -234,12 +246,13 @@ html, body {
     font-size: 20px;
     width: 100%;
     margin: auto;
-    
     text-align: center;
     border: 0px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
+    border-bottom: 2px solid white;
+    /* background-color: #000000; */
 }  
 
 /* Styling for the active navigation link */
@@ -259,21 +272,28 @@ html, body {
   .refresh-component.hide {
     opacity: 0;
   }
-  
+
+  .abt-row{
+   font-size: "20px";
+    background-color: white;
+    color: black;
+    padding: 20px;
+  }
 
 
 @media (max-width: 767px) {
     .navbar {
         position: relative; 
+        top: 0;
         font-size: 17px;
         width: 100%; 
         text-align: center;
         font-weight: bold;
         border-bottom: 2px solid white;
-
-        /*z-index: 1;
+        
+        z-index: 1;
         position: fixed;
-        background-color: rgba(0,0,0); */
+        background-color: rgba(0,0,0); 
     }
 
     .navbar-content {
@@ -292,5 +312,56 @@ html, body {
         color: white;
         border: none;
     }
+
+    .home {
+        padding-top: 100px; /* Add some padding */
+        width: 100%; /* Set the width */
+        padding-bottom: 100px;
+    }
+
+    .circle-container {
+        display: inline-block;
+        width: 250px;
+        height: 250px; 
+        border-radius: 50%;
+        border: 5px solid #ffffff;
+        overflow: hidden;
+        background-color: #f2f2f2;
+        transition: transform 0.3s;
+    }
+
+    .circle-container:hover {
+        transform: scale(1.05);
+    }
+
+    .welcome {
+        font-size: 45px;
+        transition: transform 0.3s;
+        font-weight: bold;
+    }
+
+    .custom-style {
+        margin: 5px;
+        padding: 35px;
+     }
+
+      .about, .resume-container, .project, .contact{
+        padding:  125px 10px 70px 10px;
+    } 
+
+    .resume-box{
+        padding: 30px 20px;
+        background-color: white;
+        color: black;
+    }
+
+    .awards{
+        padding:  3px 15px
+    }
+
+    .resume{
+        padding:  0 15px
+    }
+
 }
   

@@ -11,7 +11,7 @@ const Project = () => {
             style={{
               display: 'flex',
               height: '800vh',
-              padding: '3%',
+              
               maxHeight: '30vh', // Set maximum height to make sure background covers entire viewport
               minHeight: '90vh', // Set minimum height to make sure background covers entire viewport
             }}
@@ -55,7 +55,7 @@ const Project = () => {
             style={{
               display: 'flex',
               height: '800vh',
-              padding: '3%',
+              
               maxHeight: '80vh', // Set maximum height to make sure background covers entire viewport
               minHeight: '90vh', // Set minimum height to make sure background covers entire viewport
             }}
@@ -98,7 +98,7 @@ const Project = () => {
             style={{
               display: 'flex',
               height: '800vh',
-              padding: '3%',
+              
               maxHeight: '80vh', // Set maximum height to make sure background covers entire viewport
               minHeight: '90vh', // Set minimum height to make sure background covers entire viewport
             }}

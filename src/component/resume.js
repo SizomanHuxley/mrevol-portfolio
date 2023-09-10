@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Resume = () => {
     return (
         <motion.div
-        className="about"
+        className="resume"
         initial={{ opacity: 0, x: -10 }} // Start slightly to the left
         animate={{
           opacity: 1,
@@ -15,9 +15,9 @@ const Resume = () => {
         exit={{ opacity: 0 }}
       >
         <div className="row">
-            <div className="resume-container custom-style" style={{paddingBottom: "60px"}}>
-                <div className="col-md-7 mx-auto mr-auto" style={{backgroundColor: "white", color: "black", padding: "20px" }}>
-                    <p className="text-center" style={{borderBottom: "2px solid"}}>
+            <div className="resume-container">
+                <div className="col-md-7 mx-auto mr-auto resume-box ">
+                    <p className="text-center">
                         M I C H E L O B   R E V O L <br />
                         West Palm Beach, FL | mrevol2023@gmail.com | (561) 567-1891 | michelobrevol.com
                     </p>

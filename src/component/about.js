@@ -8,15 +8,15 @@ const About = () => {
 
     return (
       <motion.div
-      className="about" style={{padding: "20px 20px 70px 20px"}}
+      className="about"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 4 }}
     >
             <div className="row ">
-            <div className="col-md-5">
-            <p style={{fontSize: "20px", backgroundColor: "white", color: "black", padding: "20px"}} ><br/> As you already know, my name is Michelob Revol, a recent graduate with an insatiable passion for technology and an unwavering drive to leave a positive mark through my skills. Armed with a <span className='degree'> Bachelor of Science in Computer Science </span> from Florida Atlantic University, which I proudly earned in August 2023, I am now embarking on an exciting journey to secure a full-time role as a software engineer.</p>
+            <div className="col-md-5 ">
+            <p className='abt-row'> As you already know, my name is Michelob Revol, a recent graduate with an insatiable passion for technology and an unwavering drive to leave a positive mark through my skills. Armed with a <span className='degree'> Bachelor of Science in Computer Science </span> from Florida Atlantic University, which I proudly earned in August 2023, I am now embarking on an exciting journey to secure a full-time role as a software engineer.</p>
                     
                     <div className="abt-image" style={{padding: "10px"}}>
                         <img src={MyImage} alt="Michelob Revol" className="about-image" />
