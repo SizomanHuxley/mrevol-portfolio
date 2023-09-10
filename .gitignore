@@ -10,11 +10,13 @@
 .copy folder
 # testing
 /coverage
+/src/componentcopy
 
 # production
 /build
 
 # misc
+.hintrc
 .DS_Store
 .env.local
 .env.development.local

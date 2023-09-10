@@ -16,14 +16,6 @@ html, body {
     padding-bottom: 100px;
 }
 
-/* Styling for the active navigation link */
-.navbar-nav .nav-link.active {
-    border-bottom: 2px solid #ffffff; /* You can adjust the color and thickness as desired */
-    transition: all 0.3s;
-    margin: auto;
-    padding: auto;
-    width: auto;
-}
 
 /* Styling for various links and text elements */
 #about-link, #home-link, #contact-link, #resume-link, #projects-link, #desc-text, #contact-text, #file {
@@ -235,3 +227,70 @@ html, body {
     width: 100%;
     height: 50px;
 }
+
+.navbar {
+    color: #ffffff;
+    font-family: Malayalam MN;  
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    
+    text-align: center;
+    border: 0px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}  
+
+/* Styling for the active navigation link */
+.navbar-nav .nav-link.active {
+    border-bottom: 2px solid #ffffff; 
+    transition: all 0.3s;
+    width: auto;
+    text-align: center; 
+} 
+
+/* Define the transition styles */
+.refresh-component {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .refresh-component.hide {
+    opacity: 0;
+  }
+  
+
+
+@media (max-width: 767px) {
+    .navbar {
+        position: relative; 
+        font-size: 17px;
+        width: 100%; 
+        text-align: center;
+        font-weight: bold;
+        border-bottom: 2px solid white;
+
+        /*z-index: 1;
+        position: fixed;
+        background-color: rgba(0,0,0); */
+    }
+
+    .navbar-content {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        border-top: 2px solid white;
+    }
+
+    .navbar-toggle{
+        font-size: 25px;
+        color: white;
+        border: none;
+    }
+}
+  
