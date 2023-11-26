@@ -285,9 +285,9 @@ html, body {
     .navbar {
         position: relative; 
         top: 0;
-        font-size: 17px;
+        font-size: 15px;
         width: 100%; 
-        text-align: center;
+        /* text-align: center; */
         font-weight: bold;
         border-bottom: 2px solid white;
         
@@ -299,8 +299,8 @@ html, body {
     .navbar-content {
         position: relative;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: row; 
+        justify-content: space-between; 
         width: auto;
         margin: auto;
         text-align: center;
@@ -308,7 +308,7 @@ html, body {
     }
 
     .navbar-toggle{
-        font-size: 25px;
+        font-size: 20px;
         color: white;
         border: none;
     }
