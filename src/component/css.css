@@ -302,7 +302,7 @@ html, body {
         flex-direction: row; 
         justify-content: space-between; 
         width: auto;
-        margin: auto;
+        margin: 2px;
         padding: 2px;
         text-align: center;
         border-top: 2px solid white;
