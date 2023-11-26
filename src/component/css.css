@@ -303,12 +303,13 @@ html, body {
         justify-content: space-between; 
         width: auto;
         margin: auto;
+        padding: 2px;
         text-align: center;
         border-top: 2px solid white;
     }
 
     .navbar-toggle{
-        font-size: 20px;
+        font-size: 22px;
         color: white;
         border: none;
     }

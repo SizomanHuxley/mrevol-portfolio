@@ -22,7 +22,7 @@ const Bar = () => {
         <>
             <Navbar expanded={expanded} variant="dark" expand="md" className="navbar">
                 <Container className="navbar-container">
-                    <Navbar.Brand  style={{fontSize: "20px"}} >Michelob Revol</Navbar.Brand>
+                    <Navbar.Brand  style={{fontSize: "22px"}} >Michelob Revol</Navbar.Brand>
                     <Navbar.Toggle
                         aria-controls="basic-navbar-nav"
                         onClick={toggleNavbar}
